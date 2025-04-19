@@ -1,0 +1,11 @@
+@startuml client-server
+actor client
+entity server
+entity database
+
+client -> server: Запрос
+server -> database: Проверка данных
+database -> server: Результат проверки
+server -> client: Ответ
+
+@enduml
