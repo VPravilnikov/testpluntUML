@@ -1,0 +1,8 @@
+@startuml client-server 
+actor client
+entity server
+
+client -> server: Запрос
+server -> client: Ответ 
+
+@enduml
